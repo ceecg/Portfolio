@@ -1,0 +1,124 @@
+/* global setting */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;    
+}
+h1 {
+    padding-bottom: 20px;    
+}
+p {
+    margin: 10px;
+}
+.container1 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.container2 {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* Navigation Design */
+#navbar {
+    /* background: url(..//image/top.jpg) no repeat center/center cover; */
+    overflow: auto;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+#navbar a {
+    color: #fff;
+}
+/* remove bullets from ul */
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+/* align the anchor tag from the ul to horizontal alignment */
+#navbar ul li {
+    float: left;
+}
+/* convert first a to block element */
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+/* lower h1 to align */
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+    font-size: 15px;
+}
+/* [pseudo-selector to links */
+#navbar ul li a:hover {
+    background: #3d7097;
+    color: #ff4c29;
+}
+#navbar ul li a:active {
+    background: rgba(37, 30, 30, 0.1);
+}
+/* background image */
+#name {
+    background: url("../image/back.jpg") no-repeat center center/cover;
+    height: 700px;
+}
+#name .details {
+    color: #fff;
+    text-align: left;
+    padding-top: 170px;
+}
+#name .details h1 {
+    font-size: 50px;
+    line-height: 1.2em;
+}
+#name .details p {
+    padding-bottom: 10px;
+    line-height: 1.7em;
+}
+ /* footer */
+ footer {
+     background: url(../image/top.jpg);
+     height: 60px;
+     overflow: auto;
+ }
+ footer p {
+     color: #fff;
+     text-align: center;
+     padding-top: 8px;
+ }
+
+ /* CONTACT */
+ #contactme {
+     background: url(../image/back.jpg);
+     height: 800px;
+     color: #fff;
+     text-align: center;
+     padding-top: 200px;
+ }
+ .deets {
+     padding-bottom: 50px;
+ }
+
+ /* ABOUT */
+ #aboutme {
+     background: url(../image/back.jpg);
+     height: 900px;
+     color: #fff;
+     text-align: center;
+     padding-top: 50px;
+ }
