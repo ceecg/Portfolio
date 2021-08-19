@@ -35,7 +35,6 @@ p {
 
 /* Navigation Design */
 #navbar {
-    /* background: url(..//image/top.jpg) no repeat center/center cover; */
     overflow: auto;
     color: #fff;
     position: fixed;
@@ -44,27 +43,22 @@ p {
 #navbar a {
     color: #fff;
 }
-/* remove bullets from ul */
 #navbar ul {
     list-style: none;
     float: right;
 }
-/* align the anchor tag from the ul to horizontal alignment */
 #navbar ul li {
     float: left;
 }
-/* convert first a to block element */
 #navbar ul li a {
     display: block;
     padding: 20px;
 }
-/* lower h1 to align */
 #navbar h1 {
     float: left;
     padding-top: 20px;
     font-size: 15px;
 }
-/* [pseudo-selector to links */
 #navbar ul li a:hover {
     background: #3d7097;
     color: #ff4c29;
@@ -74,7 +68,7 @@ p {
 }
 /* background image */
 #name {
-    background: url("../image/back.jpg") no-repeat center center/cover;
+    background: url("../image/back.jpg");
     height: 700px;
 }
 #name .details {
