@@ -35,6 +35,7 @@ p {
 
 /* Navigation Design */
 #navbar {
+    background: url(..//image/top.jpg);
     overflow: auto;
     color: #fff;
     position: fixed;
@@ -68,7 +69,7 @@ p {
 }
 /* background image */
 #name {
-    background: url("../image/back.jpg");
+    background: url("../image/back.jpg") no-repeat center center/cover;
     height: 700px;
 }
 #name .details {
@@ -86,33 +87,85 @@ p {
 }
  /* footer */
  footer {
-     background: url(../image/top.jpg);
-     height: 60px;
-     overflow: auto;
- }
+    background: url(../image/top.jpg);
+    height: 60px;
+    overflow: auto;
+}
  footer p {
-     color: #fff;
-     text-align: center;
-     padding-top: 8px;
- }
+    color: #fff;
+    text-align: center;
+    padding-top: 8px;
+}
 
  /* CONTACT */
- #contactme {
-     background: url(../image/back.jpg);
-     height: 800px;
-     color: #fff;
-     text-align: center;
-     padding-top: 200px;
- }
- .deets {
-     padding-bottom: 50px;
- }
+ #contactme
+{
+    background: url(../image/back.jpg);
+    height: 800px;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#contactme .contact img {
+    height: 100px;
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+/* overlay */
+.row {
+    color: #fff;
+    overflow: hidden;
+    height: 600px;
+    z-index: 2;
+}
+#contactme .lead-head {
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 29px;
+}
+.bg-primary {
+    background: rgba(100, 89, 89, 0.4);
+}
+#contactme .contact {
+    padding: 20px;
+    width: 500px;
+    margin-bottom: 40px;
+    border-radius: 1.2em;
+    text-align: center;
+}
 
  /* ABOUT */
- #aboutme {
-     background: url(../image/back.jpg);
-     height: 900px;
-     color: #fff;
-     text-align: center;
-     padding-top: 50px;
- }
+#aboutme {
+    background: url(../image/back.jpg);
+    height: 1000px;
+    color: #fff;
+    padding-top: 100px;
+    overflow: hidden;
+}
+#aboutme .bout img {
+    height: 100px;
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+/* overlay */
+.mememe {
+    color: #fff;
+    overflow: hidden;
+    height: 1000px;
+    z-index: 2;
+}
+.bg-first, .bg-second, .bg-third {
+    background: rgba(100, 89, 89, 0.4);
+}
+#aboutme .bout {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 1.2em;
+    text-align: center;
+}
